@@ -30,7 +30,3 @@ Usage:
 - `scripts/`: scripts to reproduce results.
 
 Due to hardware limitation, we only provide the simulation codes of MXFP4 fully-quantized training, which can run on most GPUs. 
-
-## Citation
-
-TODO
