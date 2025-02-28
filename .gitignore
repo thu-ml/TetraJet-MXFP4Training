@@ -1,0 +1,82 @@
+dataset/*
+visualize
+
+*.log
+**/tmp/**
+
+*.swp
+**/__pycache__/**
+imnet_resnet50_scratch/timm_temp/
+.dumbo.json
+checkpoints/
+
+*__pycache__
+
+# Ignore Torch checkpoint files
+*.ckpt
+*.pt
+*.pth
+
+# Ignore Torch tensor files
+*.t7
+
+# Ignore Torch model files
+*.model
+*.bin
+
+# Ignore Torch serialized objects
+*.pkl
+*.pickle
+
+# Ignore Torch script files
+*.script
+
+# Ignore Torch traced models
+*.traced
+
+# Ignore Torch JIT artifacts
+*.jit
+
+# Ignore Torch ONNX files
+*.onnx
+
+# # Ignore Torch model logs
+# *.log
+
+# Ignore text files
+*.json
+
+# Ignore image files
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+
+# Ignore video files
+*.mp4
+*.avi
+*.mov
+
+# Ignore audio files
+*.mp3
+*.wav
+
+# Ignore compressed files
+*.zip
+*.tar.gz
+*.tar.bz2
+
+# Ignore temporary files and directories
+*.swp
+.DS_Store
+__pycache__/
+
+# Ignore user-specific files
+.idea/
+.vscode/
+*.iml
+
+# Ignore system-specific files
+Thumbs.db
+desktop.ini
