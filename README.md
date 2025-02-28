@@ -1,4 +1,4 @@
-# TetraJet: Oscillation-Reduced MXFP4 Training for Vision Transformers
+# TetraJet: Oscillation-Reduced MXFP4 Training
 
 This repository provides the official implementation of "Oscillation-Reduced MXFP4 Training for Vision Transformers" on DeiT model pre-training, which enable a more accurate MXFP4 pre-training for Vision Transformers.
 
@@ -10,7 +10,7 @@ Environment:
 
 - `CUDA==11.7`, `Python>=3.8`
 - `triton==3.0.0`
-- `torch==1.13.1+cu117, torchaudio==0.13.1+cu117, torchvision==0.14.1+cu117`
+- `torch==1.13.1+cu117`, `torchaudio==0.13.1+cu117`, `torchvision==0.14.1+cu117`
 - `numpy`, `nvidia-pyindex`, `nvidia-dllogger`, `tensorboardX`
 
 Usage: 
@@ -24,7 +24,7 @@ Usage:
   - Fine-grained quantization to low-precision floating-point.
   - Forward and backward process in MXFP4 format for Linear layers.
   - Customized quantization method (Q-EMA) & optimizer (Q-Ramping) for a more stable low-precision training.
-- `timm/`: We modified the original `timm` source codes. 
+- `timm/`: We modified the original [timm](https://github.com/huggingface/pytorch-image-models) source codes. 
   - Replace all the linear layers in Transformer blocks in `timm/models/vision_transformer.py`.
   - Add support for our Q-Ramping optimizer.
 - `scripts/`: scripts to reproduce results.
