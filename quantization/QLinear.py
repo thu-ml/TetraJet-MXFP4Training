@@ -7,7 +7,6 @@ from .Qconfig import qconfig
 from .utils import *
 from .QFunction import *
 
-import matplotlib.pyplot as plt
 import os
 from copy import deepcopy
 

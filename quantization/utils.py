@@ -1,7 +1,6 @@
 import torch
 import numpy as np
 import os
-import matplotlib.pyplot as plt
 import pickle
 
 def list_has_common_element(list1, list2):
