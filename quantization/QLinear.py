@@ -41,7 +41,7 @@ class QLinearLayer(nn.Linear):
     def forward(self, input):
         
         """
-        We will update W-EMA During Training Process
+        We update W_EMA During Training Process (in engine.py/train_one_epoch)
         if args.qlinear_ema_decay > 0:         # EMA-Weight Update
             for name, module in model.module.named_modules():
                 if isinstance(module, QLinearLayer):
