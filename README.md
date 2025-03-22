@@ -10,7 +10,7 @@ Paper: https://arxiv.org/abs/2502.20853
 >
 > In this work, we propose a novel training method TetraJet for a more accurate FP4 training. We comprehensively evaluate all of the quantizers involved in the training, and identify the weight oscillation problem in the forward pass as the main source of the degradation in MXFP4 training. Therefore, we introduce two novel methods, EMA Quantizer (Q-EMA) and Adaptive Ramping Optimizer (Q-Ramping), to resolve the oscillation problem. Extensive experiments on Vision Transformers demonstrate that TetraJet consistently outperforms the existing 4-bit training methods, and Q-EMA & Q-Ramping can provide additional enhancement by effectively reducing oscillation. We decreased the accuracy degradation by more than 50% compared to the baseline, and can even achieve competitive performance compared to full precision training.
 
-This repository is adapted from open-source repo [deit](https://github.com/facebookresearch/deit) by facebookresearch. 
+This repository is adapted from the open-source repo [deit](https://github.com/facebookresearch/deit) by facebookresearch. 
 
 ## Getting Started
 
@@ -37,4 +37,16 @@ Usage:
   - Add support for our Q-Ramping optimizer.
 - `scripts/`: scripts to reproduce results.
 
-Due to hardware limitation, we only provide the simulation codes of MXFP4 fully-quantized training, which can run on most GPUs. 
+Due to hardware limitations, we only provide the simulation codes of MXFP4 fully-quantized training, which can run on most GPUs. 
+
+## Citation
+
+If you find this work useful, please consider citing:
+```bibtex
+@article{chen2025oscillation,
+  title={Oscillation-Reduced MXFP4 Training for Vision Transformers},
+  author={Chen, Yuxiang and Xi, Haocheng and Zhu, Jun and Chen, Jianfei},
+  journal={arXiv preprint arXiv:2502.20853},
+  year={2025}
+}
+```
