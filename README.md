@@ -1,5 +1,8 @@
 # TetraJet: Oscillation-Reduced MXFP4 Training
 
+> **Update (2026/05):** For our latest work on accurate NVFP4 training for LLMs, please see  
+> **[TetraJet-v2: Accurate NVFP4 Training for Large Language Models with Oscillation Suppression and Outlier Control](https://github.com/thu-ml/TetraJet-v2-NVFP4Training)**, accepted as an **ICML 2026 Spotlight**.
+
 This repo provides the official implementation of "Oscillation-Reduced MXFP4 Training for Vision Transformers" (ICML 2025).
 
 **[ICML 2025] Oscillation-Reduced MXFP4 Training for Vision Transformers**  
